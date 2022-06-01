@@ -1,3 +1,4 @@
+<!-- From Error -->
 const xlsx = require("xlsx");
 const express = require("express");
 const file = xlsx.readFile("./homework/excel/students.xls");
@@ -11,7 +12,7 @@ app.get('/', (req,res) => {
         const sheetName = sheets[i];
         const sheetData = xlsx.utils.sheet_to_json(file.Sheets[sheetName]);
         sheetData.forEach((x) => {
-            students.push(x)});,
+            students.push(x)});
         }
 res.send(students)});
 
