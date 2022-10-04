@@ -73,3 +73,17 @@ function BinarySearch(num, arr, start, end) {
 }
 
 //console.log(BinarySearch(1, arr1, 0, arr1.length - 1));
+
+//----------------------------- linear search -------------------------------
+
+function linearSearch(arr, num) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === num) {
+            return i;
+        }
+
+    }
+
+}
+
+console.log(linearSearch(arr1, 8));
