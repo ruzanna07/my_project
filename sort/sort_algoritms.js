@@ -86,4 +86,8 @@ function linearSearch(arr, num) {
 
 }
 
+<<<<<<< HEAD
 console.log(linearSearch(arr1, 8));
+=======
+console.log(linearSearch(arr1, 8));
+>>>>>>> origin/master

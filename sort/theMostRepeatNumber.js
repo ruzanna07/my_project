@@ -1,4 +1,4 @@
-let arr = [1, 5, 5, 7, 6, 5, 4, 5, 7, 8, 7, 8, 6,8];
+let arr = [1, 5, 5, 7, 6, 5, 4, 5, 7, 8, 7, 7, 7, 8, 8, 6];
 
 function theMostFrequentNumber(arr) {
     let maxNum = arr[0];
